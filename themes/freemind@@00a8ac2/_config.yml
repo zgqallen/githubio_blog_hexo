@@ -1,0 +1,69 @@
+slogan: "Perseverance And Passion."
+
+theme: bootstrap
+inverse: true
+
+menu:
+  - title: 归档
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: 分类
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
+  - title: 标签
+    url: tags
+    intro: "All the tags."
+    icon: "fa fa-tags"
+  - title: 关于
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+
+links:
+  - title: Freemind
+    url: https://github.com/wzpan/freemind/
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
+  - title: "My Github"
+    url: https://github.com/zgqallen
+    intro: "My Github account."
+    icon: "fa fa-github"
+
+widgets:
+- search
+- recent_posts
+- recent_comments
+- category
+- tagcloud
+- links
+
+rss:
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: #freemindtheme
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
+#built-in comment system
+comment_js:
+  type: "github"
+  user: "zgqallen"
+  repo: "blog_comment_system"
+  client_id: "1d4b3d0ab96c29d0ce6b"
+  client_secret: "9dc2660ead6a1a1712973c13100dfd48096920bb"
+  count: 5
