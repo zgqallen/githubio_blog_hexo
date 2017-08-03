@@ -79,3 +79,7 @@ theme: freemind@@00a8ac2
 deploy:
   type: git
   repo: git@github.com:zgqallen/zgqallen.github.io.git
+
+search:
+  path: search.xml
+  field: post
